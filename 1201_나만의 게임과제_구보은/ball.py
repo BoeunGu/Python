@@ -2,7 +2,8 @@ import table, random
 
 class Ball:
     #### 생성자
-    def __init__(self, table, width=14, height=14, colour="blue",outline="red", x_speed=6, y_speed=4, x_start=0, y_start=0):
+    def __init__(self, table, width=14, height=14, colour="blue",
+                 outline="red", x_speed=6, y_speed=4, x_start=0, y_start=0):
         self.width = width
         self.height = height
         self.x_posn = x_start
